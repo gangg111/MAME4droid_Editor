@@ -28,7 +28,7 @@
 
 ---
 
-## Uruchomienie (EXE)
+## Uruchomienie
 
 > Nie wymaga Pythona ani żadnych dodatkowych instalacji.
 
@@ -39,32 +39,12 @@
 
 ---
 
-## Uruchomienie ze źródeł
-
-**Wymagania:**
-- Python 3.10+
-- `pip install pillow`
-
-```bash
-python mame4droid_editor.py
-```
-
-**Budowanie EXE** (wymaga PyInstaller):
-
-```powershell
-.\build.ps1
-```
-
----
-
-## Struktura projektu
+## Struktura paczki
 
 ```
 MAME4droid_Editor/
-├── MAME4droid_Editor.exe   # Gotowy plik wykonywalny
-├── mame4droid_editor.py    # Kod źródłowy
-├── build.ps1               # Skrypt budowania EXE
-├── icon.png / icon.ico     # Ikona aplikacji
+├── MAME4droid_Editor.exe   # Plik wykonywalny
+├── _internal/              # Biblioteki Python (automatyczne)
 └── tools/
     ├── jre/bin/java.exe    # Wbudowany Java Runtime
     ├── apktool.jar         # Dekompilacja/kompilacja APK
