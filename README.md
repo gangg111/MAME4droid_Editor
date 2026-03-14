@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="icon.png" width="96" alt="MAME4droid APK Editor icon"/>
+<img src="icon.png" width="400" alt="MAME4droid APK Editor icon"/>
 
 # MAME4droid APK Editor
 
